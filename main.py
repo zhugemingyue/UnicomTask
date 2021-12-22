@@ -10,7 +10,7 @@ import pytz
 #用户登录全局变量
 client = None
 
-#获取沃之树首页，得到领流量的目标值
+#获取沃之树首页，  得到领流量的目标值
 def get_woTree_glowList():
     index = client.post('https://m.client.10010.com/mactivity/arbordayJson/index.htm')
     index.encoding='utf-8'

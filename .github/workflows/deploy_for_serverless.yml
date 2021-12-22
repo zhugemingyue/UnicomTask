@@ -1,4 +1,4 @@
-name: 'deploy for serverless'
+name: 'deploy for  serverless'
 
 on:
   watch:
